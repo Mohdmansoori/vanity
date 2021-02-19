@@ -1,10 +1,10 @@
 import React from 'react'
-import zara from './images/Vector.png'
+import zara from '../images/Vector.png'
 
 class Vanity extends React.Component {
     render (){
         return (
-            <>
+            <> 
             <div className="header">
             <a href="https://www.google.com/" className="vanity" target="blank"/> 
          </div>
