@@ -82,3 +82,80 @@ line-height: 115px;
 
 color: #FFFFFF;
 }
+
+.footer-banner {
+position: absolute;
+width: 100%;
+height: 387px;
+left: 0px;
+background: url(./images/image\ 11.png);
+opacity: 0.3;
+}
+.overlay {
+  position: absolute;
+width: 100%;
+height: 387px;
+left: 0px;
+background: rgba(16, 16, 16, 0.85);
+}
+.vanity-logo {
+  text-align: center;
+    position: relative;
+    top: 22px;
+}
+.footer-pera {
+  position: absolute;
+width: 565px;
+height: 58px;
+left: 437px;
+top: 142px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+}
+.footer-items {
+  position: relative;
+    top: 140px;
+}
+.footer-items ul{
+  list-style: none;
+  text-align: center;
+  color: #FFFFFF;
+}
+.footer-items li {
+  display: inline-block;
+}
+.footer-items a {
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  padding: 15px;
+  font-size: 17px;
+  font-family: Helvetica;
+}
+.fa-angle-right {
+   color: #BB8119;
+}
+.social-media {
+  position: relative;
+  top: 115px;
+}
+.social-media ul {
+  list-style: none;
+  text-align: center;
+}
+.social-media li {
+  display: inline-block;
+}
+.social-media a {
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  padding: 15px;
+  font-size: 17px;
+  font-family: Helvetica;
+}
