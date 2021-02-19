@@ -12,8 +12,7 @@ const Home = () => {
            <div className="row">
 0            <div className="col-md-6"><h3 className="banner-content">WOMEN <br /> MEN <br />KIDS <br />BRANDS</h3></div>
             <div className="col-md-6">
-                <input type="text" placeholder="SEARCH" className="vanity-input">
-                  </input>
+                <input type="text" placeholder="SEARCH" className="vanity-input" />
                 <div><i className="fa fa-search vanity-search" aria-hidden="true"></i></div>
                 <div className="zara">
               <img src={zara} /><br/><span>50% Off</span>
