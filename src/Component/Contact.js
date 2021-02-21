@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Mens = () => {
+const Contact = () => {
     return (
         <>
             <section>
-                <div className="container-fluid mans-banner">
+            <div className="container-fluid Contact-banner">
                     <div className="row">
                         <div className="col-md-6 brand">
                             <h1>WOMEN</h1>
@@ -19,8 +19,8 @@ const Mens = () => {
                     </div>
                     <div className="row text-center">
                         <div className="Ultimate">
-                            <h1>ULTIMATE SOPHISTICATION</h1>
-                            <h3>Unique style matchless look</h3>
+                            <h1>A BRAND NEW ARRIVAL</h1>
+                            <h3>Unique style matchless elegance</h3>
                         </div>
 
                     </div>
@@ -30,4 +30,4 @@ const Mens = () => {
     )
 }
 
-export default Mens;
+export default Contact;

@@ -10,7 +10,9 @@ class Vanity extends React.Component {
          </div>
          <div className="container-fluid banner">
            <div className="row">
-            <div className="col-md-6"><h3 className="banner-content">WOMEN <br /> MEN <br />KIDS <br />BRANDS</h3></div>
+            <div className="col-md-6">
+              <h3 className="banner-content">WOMEN <br /> MEN <br />KIDS <br />BRANDS</h3>
+            </div>
             <div className="col-md-6">
                 <input type="text" placeholder="SEARCH" className="vanity-input">
                   </input>

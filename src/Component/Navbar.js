@@ -3,7 +3,11 @@ import React from 'react';
 const Navbar = () => {
     return (
         <>
-        <h1>Welcome to Navbar</h1>
+            <section>
+                <div className="conatiner-fluid header">
+                    <a href="https://www.google.com/" className="vanity" target="blank" />
+                </div>
+            </section>
         </>
     )
 }

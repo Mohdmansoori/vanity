@@ -3,6 +3,7 @@ import icon from '../images/image\ 1.png';
 import Twitter from '../images/twitter.png';
 import Facebook from '../images/facebook.png';
 import Insta from '../images/insta.png';
+import Womens from '../Component/Womens'
 
 function Footer() {
   return (
@@ -17,9 +18,9 @@ function Footer() {
         </div>
         <div className="footer-items">
           <ul>
-            <li><a href="#">Women<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
-            <li><a href="#">Men <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
-            <li><a href="#">Kids <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a href='/Vanity'>Women<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a href='/Mens'>Men <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a href='/Kids'>Kids <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
             <li><a href="#">Brands <i class="fa fa-angle-right" aria-hidden="true"></i> </a></li>
             <li><a href="#">Contact us <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
           </ul>

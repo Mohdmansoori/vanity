@@ -1,5 +1,5 @@
 .header {
-position: absolute;
+position: relative;
 width: 100%;
 height: 102px;
 left: 0px;
@@ -50,7 +50,7 @@ color: #FFFFFF;
 }
 .vanity-search {
   position: absolute;
-left: 76.18%;
+left: 74.18%;
 right: 12.29%;
 top: 64px;
 bottom: 86.38%;
@@ -159,4 +159,92 @@ color: #FFFFFF;
   padding: 15px;
   font-size: 17px;
   font-family: Helvetica;
+}
+.mans-banner {
+  position: relative;
+  width: 100%;
+  height: 833px;
+  background: url(./images/image\ 23.png);
+}
+.Ultimate {
+  position: absolute;
+    width: 707px;
+    height: 172px;
+    left: 366px;
+    top: 519px;
+    background: rgba(0, 0, 0, 0.27);
+}
+.Ultimate h1 {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 124.49%;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.Ultimate h3 {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 124.49%;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.brand h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 55px;
+  position: relative;
+    left: 92px;
+    color: #FFFFFF;
+}
+.brand-man {
+  position: absolute;
+width: 222px;
+height: 71px;
+left: 147px;
+top: 189px;
+    background: rgba(0, 0, 0, 0.27);
+}
+.Kids-banner {
+    position: relative;
+    width: 100%;
+    height: 833px;
+    background: url(./images/image\ 26.png);
+}
+.brands h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 55px;
+  position: relative;
+    left: 92px;
+}
+.Brand-input {
+  position: absolute;
+    width: 265px;
+    height: 34px;
+    left: 263px;
+    top: 55px;
+    box-sizing: border-box;
+    border-radius: 28.5px;
+    background: none;
+}
+.Brand-search {
+  position: absolute;
+left: 74.18%;
+right: 12.29%;
+top: 64px;
+bottom: 86.38%;
+}
+.Contact-banner {
+    position: relative;
+    width: 100%;
+    height: 833px;
+    background: url(./images/image\ 12.png);
 }
