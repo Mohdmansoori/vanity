@@ -245,6 +245,21 @@ bottom: 86.38%;
 .Contact-banner {
     position: relative;
     width: 100%;
-    height: 833px;
+    height: 755px;
     background: url(./images/image\ 12.png);
+}
+.social-media-icon {
+  padding-top: 30px;
+}
+.social-media-icon i {
+  font-size: 20px;
+  color: #BB8119;
+}
+.social-media-icon h6 {
+  font-size: 18px;
+  color: #000000;
+}
+.map-image {
+  width: 100%;
+  padding-top: 50px;
 }

@@ -3,7 +3,6 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import Footer from './Component/Footer';
 import Navbar from './Component/Navbar';
 import Vanity from './Component/Vanity';
-import Womens from './Component/Womens';
 import Kids from './Component/Kids';
 import Mens from './Component/Mens';
 import Home from './Component/Home';
@@ -23,7 +22,7 @@ const App = () => {
         <Route exact path="/Brands" component={Brands} />
         <Redirect to="/" />
       </Switch>
-      <Footer />
+    <Footer />
     </>
   )
 }
