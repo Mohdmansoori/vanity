@@ -97,12 +97,12 @@ width: 100%;
 height: 387px;
 left: 0px;
 background: rgba(16, 16, 16, 0.85);
-top: 935px;
 }
 .vanity-logo {
-  text-align: center;
+  height: 67px;
+    width: 154px;
     position: relative;
-    top: 22px;
+    top: 23px;
 }
 .footer-pera {
   position: absolute;
@@ -192,7 +192,7 @@ line-height: 124.49%;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 }
-.brand h1 {
+.brand a {
   font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
@@ -262,4 +262,208 @@ bottom: 86.38%;
 .map-image {
   width: 100%;
   padding-top: 50px;
+}
+.home-banner {
+  position: relative;
+  width: 100%;
+  height: 833px;
+  background: url(./images/image\ 13.png);
+}
+.home-heading{
+  position: absolute;
+    width: 649px;
+    height: 172px;
+    left: 366px;
+    top: 519px;
+    background: rgba(0, 0, 0, 0.27);
+}
+.home-heading h1 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 124.49%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.home-heading p {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 162.49%;
+text-align: center;
+letter-spacing: 0.095em;
+color: #FFFFFF;
+}
+.brands-section h3 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 124.49%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #000000;
+}
+.brands-section {
+  padding-top: 30px;
+}
+.brands-section .row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Emporio {
+  position: relative;
+  top: 20px;
+}
+.womens-banner {
+  position: relative;
+  width: 100%;
+  height: 833px;
+  background: url(./images/image\ 17.png);
+}
+.footer-row {
+  padding-top: 30px;
+}
+.footer-row h5 {
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 162.49%;
+color: #FFFFFF;
+}
+.footer-row p {
+  width: 293px;
+  font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+.insta-icon {
+  position: absolute;
+left: 6.94%;
+right: 91.78%;
+top: 93.09%;
+bottom: 5.84%;
+
+background: #FFFFFF;
+}
+.insta {
+  background: #FFFFFF;
+  font-size: 24px;
+  padding: 0 3px 1px 3px;
+}
+
+.facebook {
+  background: #FFFFFF;
+  width: 20px;
+  font-size: 24px;
+  padding: 0px 0px 0px 1px;
+  margin-left: 9px;
+}
+.youtube {
+  background: #FFFFFF;
+  font-size: 24px;
+  padding: 0 3px 0px 3px;
+  margin-left: 9px;
+}
+.notification {
+  background: #FFFFFF;
+    font-size: 24px;
+    margin-left: 8px;
+}
+.footer-social-media {
+  position: absolute;
+  left: 6.94%;
+  right: 91.78%;
+  top: 93.09%;
+  bottom: 5.84%;
+  
+  background: #FFFFFF;
+}
+.carrer-email {
+  font-family: Helvetica Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 162.49%;
+    color: #FFFFFF;
+}
+.locate {
+  padding-left: 70px;
+}
+.locate p {
+font-family: Helvetica Light;
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 162.49%;
+color: #FFFFFF;
+}
+.categories a{
+font-family: Helvetica Light;
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 162.49%;
+color: #FFFFFF;
+}
+.categories ul {
+  list-style-type: none;
+  position: relative;
+  left: -38px;
+}
+.Slider-jones {
+width: 283px;
+height: 125px;
+left: 234px;
+}
+.brands-slider {
+  padding-top: 30px;
+  padding-bottom: 32px;
+}
+.Slider-armani {
+  position: relative;
+  top: 51px;
+}
+.Slider-ralph {
+  position: relative;
+  top: 32px;
+}
+.Slider-nike {
+  position: relative;
+  top: 30px;
+}
+.Slider-puma {
+  position: relative;
+  top: 26px;
+}
+.slick-arrow {
+  color: #9B9B9B;
+}
+.brand-page {
+width: 178px;
+background: rgba(0, 0, 0, 0.27);
+}
+.vanity-bottom {
+  position: relative;
+  top: 387px;
+  font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 162.49%;
+background: #101010;
+text-align: center;
+}
+.vanity-bottom p {
+  color: #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
