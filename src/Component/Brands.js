@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
 import Puma from '../images/image 30.png'
 import Jones from '../images/image 27.png'
 import Ralph from '../images/image 28.png'
@@ -22,10 +23,11 @@ const Brands = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-6 brands">
-                            <h1>WOMEN</h1>
-                            <h1>MEN</h1>
-                            <h1>KIDS</h1>
-                            <h1 className="brand-page">BRAND</h1>
+                        <Link to="/Home"><h1>Home</h1></Link>
+                            <Link to="/Womens"><h1>WOMAN</h1></Link>
+                            <Link to="/Mens"><h1>MAN</h1></Link>
+                            <Link to="/Kids"><h1>KIDS</h1></Link>
+                            <Link to="/Brands"><h1 className="Brands-brand">BRANDS</h1></Link>
                         </div>
                         <div className="col-md-6">
                             <input type="text" placeholder="SEARCH" className="Brand-input" />

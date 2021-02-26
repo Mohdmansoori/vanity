@@ -13,7 +13,8 @@ const Womens = () => {
         <div className="container-fluid womens-banner">
           <div className="row">
             <div className="col-md-6 brand">
-            <Link to="/Womens"><h1>WOMAN</h1></Link>
+            <Link to="/Home"><h1>Home</h1></Link>
+            <Link to="/Womens"><h1 className="Women-banner">WOMAN</h1></Link>
               <Link to="/Mens"><h1>MAN</h1></Link>
               <Link to="/Kids"><h1>KIDS</h1></Link>
               <Link to="/Brands"><h1>BRANDS</h1></Link>

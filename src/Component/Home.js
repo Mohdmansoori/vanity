@@ -13,6 +13,7 @@ const Home = () => {
         <div className="container-fluid home-banner">
           <div className="row">
             <div className="col-md-6 brand">
+              <Link to="/Home"><h1 className="brand-home">Home</h1></Link>
               <Link to="/Womens"><h1>WOMAN</h1></Link>
               <Link to="/Mens"><h1>MAN</h1></Link>
               <Link to="/Kids"><h1>KIDS</h1></Link>
@@ -39,7 +40,7 @@ const Home = () => {
           <div className="row">
             <div className="col-md-4 text-right"><img src={Jones} /></div>
             <div className="col-md-4 text-center"><img src={Ralph} /></div>
-            <div className="col-md-4 text-left"><img src={Armani} className="Emporio"/></div>
+            <div className="col-md-4 text-left"><img src={Armani} className="Emporio" /></div>
           </div>
         </div>
       </section>

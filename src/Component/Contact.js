@@ -9,6 +9,7 @@ const Contact = () => {
                 <div className="container-fluid Contact-banner">
                     <div className="row">
                         <div className="col-md-6 brand">
+                            <Link to="/Home"><h1>Home</h1></Link>
                             <Link to="/Womens"><h1>WOMAN</h1></Link>
                             <Link to="/Mens"><h1>MAN</h1></Link>
                             <Link to="/Kids"><h1>KIDS</h1></Link>
@@ -52,12 +53,15 @@ const Contact = () => {
                 </div>
                 <div className="container-fluid"></div>
                 <img src={Map} className="map-image" />
-                <div className="container text-center">
+                <div className="container text-center form">
                     <h4>Send Massege</h4>
                     <input type="text" placeholder="Your Name" className="your-name" />
-                    <span><input type="text" placeholder="Your Email" /></span>
+                    <span><input type="text" placeholder="Your Email" className="your-mail"/></span>
                     <div>
-                        <input type="text" placeholder="Message" />
+                        <input type="text" placeholder="Message" className="your-massage"/>
+                    </div>
+                    <div className="submit-btn">
+                        <button className="submit">Submit</button>
                     </div>
                 </div>
 

@@ -15,7 +15,8 @@ function Footer() {
       <div className="container-fluid overlay">
         <div className="footer-banner"></div>
         <div className="container">
-          <img src={icon} className="vanity-logo"/>
+          <Link to={'/Home'}>
+          <img src={icon} className="vanity-logo"/></Link>
           <div className="row footer-row">
             <div className="col-md-3">
               <h5 >ABOUT US</h5>
@@ -40,6 +41,7 @@ function Footer() {
                 <Link to={'/Mens'}><li>Man</li></Link>
                 <Link to={'/Kids'}><li>Kids</li></Link>
                 <Link to={'/Brands'}><li>Brands</li></Link>
+                <Link to={'/Contact'}><li>Contact Us</li></Link>
               </ul>
             </div>
             <div className="col-md-3">

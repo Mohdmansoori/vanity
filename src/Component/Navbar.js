@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <>
             <section>
                 <div className="conatiner-fluid header">
-                    <a href="https://www.google.com/" className="vanity" target="blank" />
+                    <Link to={'/Home'} className="vanity" target="blank"></Link>
                 </div>
             </section>
         </>
