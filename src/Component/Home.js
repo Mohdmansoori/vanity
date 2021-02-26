@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Puma from '../images/image 30.png'
 import Jones from '../images/image 27.png'
 import Ralph from '../images/image 28.png'
@@ -12,10 +13,10 @@ const Home = () => {
         <div className="container-fluid home-banner">
           <div className="row">
             <div className="col-md-6 brand">
-              <h1><a href={'/Womens'}>WOMAN</a></h1>
-              <h1><a href={'/Mens'}>MAN</a></h1>
-              <h1><a href={'/Kids'}>KIDS</a></h1>
-              <h1><a href={'/Brands'}>BRANDS</a></h1>
+              <Link to="/Womens"><h1>WOMAN</h1></Link>
+              <Link to="/Mens"><h1>MAN</h1></Link>
+              <Link to="/Kids"><h1>KIDS</h1></Link>
+              <Link to="/Brands"><h1>BRANDS</h1></Link>
             </div>
             <div className="col-md-6">
               <input type="text" placeholder="SEARCH" className="vanity-input" />

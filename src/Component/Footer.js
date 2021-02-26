@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import icon from '../images/image\ 1.png';
 import Youtube from '../images/youtube.png';
 import Facebook from '../images/facebook.png';
@@ -34,11 +35,11 @@ function Footer() {
             <div className="col-md-3 categories">
               <h5>CATEGORIES</h5>
               <ul>
-                <li><a href={'/Home'}>Home</a></li>
-                <li><a href={'/Womens'}>Woman</a></li>
-                <li><a href={'/Mens'}>Man</a></li>
-                <li><a href={'/kids'}>Kids</a></li>
-                <li><a href={'/Brands'}>Brands</a></li>
+                <Link to={'/Home'}><li>Home</li></Link>
+                <Link to={'/Womens'}><li>Woman</li></Link>
+                <Link to={'/Mens'}><li>Man</li></Link>
+                <Link to={'/Kids'}><li>Kids</li></Link>
+                <Link to={'/Brands'}><li>Brands</li></Link>
               </ul>
             </div>
             <div className="col-md-3">
