@@ -14,6 +14,7 @@ const Brands = () => {
         dots: false,
         infinite: true,
         speed: 600,
+        centerMode: true,
         slidesToShow: 3,
         slidesToScroll: 1
     };
@@ -23,7 +24,7 @@ const Brands = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-6 brands">
-                        <Link to="/Home"><h1>Home</h1></Link>
+                            <Link to="/Home"><h1>Home</h1></Link>
                             <Link to="/Womens"><h1>WOMAN</h1></Link>
                             <Link to="/Mens"><h1>MAN</h1></Link>
                             <Link to="/Kids"><h1>KIDS</h1></Link>
@@ -35,22 +36,22 @@ const Brands = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container">
+                <div className="container text-center ">
                     <Slider {...settings}>
                         <div className="brands-slider text-center">
-                            <img src={Jones} className=""/>
+                            <img src={Jones} className="" />
                         </div>
-                        <div>
-                        <img src={Ralph} className="Slider-ralph"/>
+                        <div className="text-center">
+                            <img src={Ralph} className="Slider-ralph" />
                         </div>
-                        <div>
-                        <img src={Armani} className="Slider-armani"/>
+                        <div className="text-center">
+                            <img src={Armani} className="Slider-armani" />
                         </div>
-                        <div>
-                        <img src={Nike} className="Slider-nike"/>
+                        <div className="text-center">
+                            <img src={Nike} className="Slider-nike" />
                         </div>
-                        <div>
-                        <img src={Puma} className="Slider-puma"/>
+                        <div className="text-center">
+                            <img src={Puma} className="Slider-puma" />
                         </div>
                     </Slider>
                 </div>

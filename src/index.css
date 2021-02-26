@@ -14,7 +14,6 @@ width: 234px;
 height: 102px;
 left: 603px;
 top: 0px;
-
 background: url(./images/image\ 1.png);
 }
 
@@ -521,7 +520,7 @@ box-sizing: border-box;
 margin-top: 20px;
 }
 .submit-btn {
-width: 606px;
+width: 597px;
 height: 63px;
 background: #000000;
 border: 1px solid #BB8119;
@@ -569,3 +568,120 @@ color: #000000;
 position: relative;
 margin-top: 35px;
 }
+.slick-prev:before,
+.slick-next:before {
+  color: black!important;
+  font-size: 45px !important;
+}
+.slick-prev:before {
+  color: black!important;
+  font-size: 45px !important;
+  margin-right: 30px !important;
+  position: relative;
+  right: 25px;
+}
+.sc div { text-align: center; }
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+.About-banner {
+  width: 100%;
+  height: 833px;
+  top: 102px;
+  background: url(./images/image\ 32.png);
+  }
+  .about {
+    position: absolute;
+width: 627px;
+height: 172px;
+left: 407px;
+top: 436px;
+
+background: rgba(0, 0, 0, 0.27);
+  }
+  .about h1 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 124.49%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+  }
+  .about p {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 124.49%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+  }
+  .About-us-content h3 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 162.49%;
+    color: #000000;
+  }
+  .About-us-content p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    width: 737px;
+    text-align: center;
+    color: #484848;
+    position: relative;
+    left: 288px;
+    padding-bottom: 50px;
+  }
+  .About-banner1 {
+    width: 100%;
+    height: 532px;
+    top: 102px;
+    background: url(./images/image\ 35.png);
+    }
+    .cards {
+    width: 1206px;
+    height: 370px;
+    position: relative;
+    top: 86px;
+    background: rgba(16, 16, 16, 0.6);
+    }
+    .cards h3 {
+      width: 234px;
+      height: 65px;
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      line-height: 162.49%;
+      color: #FFFFFF;
+    }
+    .cards h5 {
+      width: 155px;
+      height: 45px;
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 162.49%;
+      color: #BB8119
+    }
+    .cards p {
+    width: 335px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 162.49%;
+    color: #FFFFFF;
+    }
+    .cards span {
+      color: #FFFFFF;
+    }

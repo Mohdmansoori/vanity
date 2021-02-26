@@ -7,7 +7,8 @@ import Mens from './Component/Mens';
 import Home from './Component/Home';
 import Brands from './Component/Brands';
 import Contact from './Component/Contact';
-import Womens from './Component/Womens'
+import Womens from './Component/Womens';
+import About from './Component/About';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/Brands" component={Brands} />
         <Route exact path="/Womens" component={Womens} />
+        <Route exact path="/About" component={About} />
         <Redirect to="/" />
       </Switch>
       <Footer />
