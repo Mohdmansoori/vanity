@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
             <section>
                 <div className="conatiner-fluid header">
-                    <Link to={'/Home'} className="vanity" target="blank"></Link>
+                    <Link to={'/Home'} className="vanity"></Link>
                 </div>
             </section>
         </>
