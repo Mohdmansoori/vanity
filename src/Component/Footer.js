@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import icon from '../images/image\ 1.png';
 import Youtube from '../images/youtube.png';
-import Facebook from '../images/fb.png';
-import Insta from '../images/instagram.png';
+import Facebook from '../images/facebook.png';
+import Insta from '../images/insta.png';
 import Bell  from '../images/notification.png';
 import Email from '../images/envolve.png';
 import Call from '../images/call.png';
@@ -22,8 +22,10 @@ function Footer() {
               <Link to={'/About'}><h5 >ABOUT US</h5></Link>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra morbi nisi, tortor quam integer..</p>
               <div className="">
-                 <img src={Insta} className="insta"/>
-                 <img src={Facebook} className="facebook"/>
+              <i className="fa fa-instagram insta" aria-hidden="true"></i>
+              <i className="fa fa-facebook facebook" aria-hidden="true"></i>                
+              <i className="fa fa-youtube-play youtube" aria-hidden="true"></i>
+              <i className="fa fa-bell-o notification" aria-hidden="true"></i>
               </div>
               </div>
             <div className="col-md-3 locate">
