@@ -612,6 +612,7 @@ margin-top: 35px;
 .slick-track {
   display: flex;
   align-items: center;
+  top: -3px !important;
 }
 .About-banner {
   width: 100%;
