@@ -713,17 +713,6 @@ color: #FFFFFF;
     .cards span {
       color: #FFFFFF;
     }
-    .slick-dots{
-      position: absolute;
-      bottom: 20px;
-      display: vertical;
-      width: 100%;
-      padding: 10;
-      margin: 0;
-      list-style: none;
-      text-align: right;
-      display: inline-flex;
-      }
       .slick-dots li.slick-active button:before{
         font-size:15px;
         color:orange !important;
