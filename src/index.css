@@ -12,7 +12,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 position: absolute;
 width: 234px;
 height: 102px;
-left: 603px;
+left: 553px;
 top: 0px;
 background: url(./images/image\ 1.png);
 }
@@ -64,15 +64,15 @@ color: #FFFFFF;
 }
 
 .zara {
-  position: absolute;
-  top: 322px;
-  left: 94px;
+  text-align: -webkit-right;
+  position: relative;
+  right: 90px;
+  top: 94px;
+}
+.zara img {
+  width: 347px;
 }
 .zara span {
-  position: relative;
-width: 303px;
-height: 115px;
-left: 233px;
 font-family: Nimbus Roman No9 L;
 font-style: italic;
 font-weight: normal;
@@ -165,7 +165,21 @@ color: #FFFFFF;
   height: 833px;
   background: url(./images/image\ 23.png);
 }
+.mans-banner1 {
+  position: relative;
+  width: 100%;
+  height: 833px;
+  background: url(./images/image\ 20.png);
+}
 .Ultimate {
+  position: absolute;
+    width: 707px;
+    height: 172px;
+    left: 366px;
+    top: 519px;
+    background: rgba(0, 0, 0, 0.27);
+}
+.Ultimate1 {
   position: absolute;
     width: 707px;
     height: 172px;
@@ -181,6 +195,17 @@ font-size: 42px;
 line-height: 124.49%;
 letter-spacing: 0.02em;
 color: #FFFFFF;
+}
+.Ultimate1 h1 {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 124.49%;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+position: relative;
+top: 35px;
 }
 .Ultimate h3 {
   font-family: Montserrat;
@@ -198,7 +223,7 @@ color: #FFFFFF;
   font-size: 48px;
   line-height: 55px;
   position: relative;
-    left: 92px;
+    left: 163px;
     color: #FFFFFF;
 }
 .brand-man {
@@ -214,6 +239,12 @@ top: 189px;
     width: 100%;
     height: 833px;
     background: url(./images/image\ 26.png);
+}
+.Kids-banner1 {
+  position: relative;
+  width: 100%;
+  height: 833px;
+  background: url(./images/image\ 19.png);
 }
 .brands a {
   font-family: Helvetica;
@@ -271,7 +302,23 @@ bottom: 86.38%;
 }
 .home-heading{
   position: absolute;
-    width: 649px;
+    width: 619px;
+    height: 172px;
+    left: 366px;
+    top: 519px;
+    background: rgba(0, 0, 0, 0.27);
+}
+.home-heading1{
+  position: absolute;
+    width: 619px;
+    height: 172px;
+    left: 366px;
+    top: 519px;
+    background: rgba(0, 0, 0, 0.27);
+}
+.home-heading2{
+  position: absolute;
+    width: 619px;
     height: 172px;
     left: 366px;
     top: 519px;
@@ -324,6 +371,18 @@ color: #000000;
   height: 833px;
   background: url(./images/image\ 6.png);
 }
+.womens-banner1 {
+  position: relative;
+  width: 100%;
+  height: 833px;
+  background: url(./images/image\ 17.png);
+}
+.womens-banner2 {
+  position: relative;
+  width: 100%;
+  height: 833px;
+  background: url(./images/womens\ banner.png);
+}
 .footer-row {
   padding-top: 30px;
 }
@@ -336,47 +395,16 @@ line-height: 162.49%;
 color: #FFFFFF;
 }
 .footer-row p {
-  width: 293px;
-  font-family: Helvetica;
+width: 293px;
+font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 29px;
-
 color: #FFFFFF;
 }
-.insta-icon {
-  position: absolute;
-left: 6.94%;
-right: 91.78%;
-top: 93.09%;
-bottom: 5.84%;
-
-background: #FFFFFF;
-}
-.insta {
-  background: #FFFFFF;
-  font-size: 24px;
-  padding: 0 3px 1px 3px;
-}
-
-.facebook {
-  background: #FFFFFF;
-  width: 20px;
-  font-size: 24px;
-  padding: 0px 0px 0px 1px;
-  margin-left: 9px;
-}
-.youtube {
-  background: #FFFFFF;
-  font-size: 24px;
-  padding: 0 3px 0px 3px;
-  margin-left: 9px;
-}
-.notification {
-  background: #FFFFFF;
-    font-size: 24px;
-    margin-left: 8px;
+.Social-media-insta {
+  background: url(./images/Ellipse\ 22.png);
 }
 .footer-social-media {
   position: absolute;
@@ -685,3 +713,28 @@ color: #FFFFFF;
     .cards span {
       color: #FFFFFF;
     }
+    .slick-dots{
+      position: absolute;
+      bottom: 20px;
+      display: vertical;
+      width: 100%;
+      padding: 10;
+      margin: 0;
+      list-style: none;
+      text-align: right;
+      display: inline-flex;
+      }
+      .slick-dots li.slick-active button:before{
+        font-size:15px;
+        color:orange !important;
+      }
+      .slick-dots button
+      {
+          font-size: 20px;
+      }
+      .slide {
+        background-color: #ccc;
+        padding: 10px;
+        display: table-cell !important;
+        float: left !important;
+      }

@@ -22,10 +22,9 @@ function Footer() {
               <Link to={'/About'}><h5 >ABOUT US</h5></Link>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra morbi nisi, tortor quam integer..</p>
               <div className="">
-              <i className="fa fa-instagram insta" aria-hidden="true"></i>
-              <i className="fa fa-facebook facebook" aria-hidden="true"></i>                
-              <i className="fa fa-youtube-play youtube" aria-hidden="true"></i>
-              <i className="fa fa-bell-o notification" aria-hidden="true"></i>
+              <div className="Social-media-insta">
+               
+                </div>
               </div>
               </div>
             <div className="col-md-3 locate">
