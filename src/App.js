@@ -2,13 +2,13 @@ import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import Footer from './Component/Footer';
 import Navbar from './Component/Navbar';
-import Kids from './Component/Kids';
-import Mens from './Component/Mens';
-import Home from './Component/Home';
-import Brands from './Component/Brands';
-import Contact from './Component/Contact';
-import Womens from './Component/Womens';
-import About from './Component/About';
+import Kids from './Component/Module/Kids';
+import Mens from './Component/Module/Mens';
+import Home from './Component/Module/Home';
+import Brands from './Component/Module/Brands';
+import Contact from './Component/Module/Contact';
+import Womens from './Component/Module/Womens';
+import About from './Component/Module/About';
 
 const App = () => {
   return (

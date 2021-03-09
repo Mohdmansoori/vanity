@@ -3,11 +3,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from 'react-router-dom';
-import Puma from '../images/image 30.png'
-import Jones from '../images/image 27.png'
-import Ralph from '../images/image 28.png'
-import Armani from '../images/image 29.png'
-import Nike from '../images/image 31.png'
+import Puma from '../../images/image 30.png'
+import Jones from '../../images/image 27.png'
+import Ralph from '../../images/image 28.png'
+import Armani from '../../images/image 29.png'
+import Nike from '../../images/image 31.png'
 
 const Brands = () => {
     var settings = {

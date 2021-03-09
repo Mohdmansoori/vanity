@@ -216,7 +216,7 @@ line-height: 124.49%;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 }
-.brand a {
+.brand h1 {
   font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
@@ -403,8 +403,28 @@ font-size: 18px;
 line-height: 29px;
 color: #FFFFFF;
 }
-.Social-media-insta {
-  background: url(./images/Ellipse\ 22.png);
+.social-insta {
+  cursor: pointer;
+}
+.social-facebook {
+  position: relative;
+  left: 12px;
+  cursor: pointer;
+}
+.social-youtube {
+  position: relative;
+  left: 24px;
+  cursor: pointer;
+}
+.social-bell {
+  position: relative;
+  left: 36px;
+  cursor: pointer;
+}
+.Social-media-header {
+  position: absolute;
+  top: 40px;
+  left: 183px;
 }
 .footer-social-media {
   position: absolute;
@@ -502,22 +522,28 @@ background: rgba(0, 0, 0, 0.27);
 padding-left: 5px;
 }
 .Women-banner {
-  width: 157px;
-  height: 44px;
+  width: 222px;
+  height: 71px;
   background: rgba(0, 0, 0, 0.27);
-  padding-left: 5px;
+  padding: 8px 15px;
+}
+.Women-banner:hover {
+  border-bottom: none !important;
+  outline: none !important;
+  text-decoration: none !important;
+  overflow: hidden;
 }
 .Man-banner {
-  width: 136px;
-  height: 46px;
+  width: 222px;
+  height: 71px;
   background: rgba(0, 0, 0, 0.27);
-  padding-left: 5px;
+  padding: 10px;
 }
 .Kid-banner {
-  width: 108px;
-  height: 44px;
+  width: 222px;
+  height: 76px;
   background: rgba(0, 0, 0, 0.27);
-  padding-left: 5px;
+  padding: 9px 0 0 12px;
 }
 .Brands-brand {
   width: 162px;

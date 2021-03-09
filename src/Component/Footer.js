@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import icon from '../images/image\ 1.png';
-import Youtube from '../images/youtube.png';
-import Facebook from '../images/facebook.png';
-import Insta from '../images/insta.png';
-import Bell  from '../images/notification.png';
 import Email from '../images/envolve.png';
 import Call from '../images/call.png';
+import Insta from '../images/insta.png';
+import Facebook from '../images/facebook.png';
+import Youtube from '../images/youtube.png';
+import Bell from '../images/bell.png';
 
 function Footer() {
   return (
@@ -21,11 +21,12 @@ function Footer() {
             <div className="col-md-3">
               <Link to={'/About'}><h5 >ABOUT US</h5></Link>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra morbi nisi, tortor quam integer..</p>
-              <div className="">
-              <div className="Social-media-insta">
-               
-                </div>
-              </div>
+                 <div className="Social-media-icons">
+                   <Link to="https://www.instagram.com"><img src={Insta}/></Link>
+                   <Link to="https://www.facebook.com/"><img src={Facebook} className="social-facebook"/></Link>
+                   <Link to="https://www.youtube.com/"><img src={Youtube} className="social-youtube"/></Link>
+                   <Link to="https://www.snapchat.com/" ><img src={Bell} className="social-bell"/></Link>
+                   </div> 
               </div>
             <div className="col-md-3 locate">
               <h5>LOCATE US</h5>
