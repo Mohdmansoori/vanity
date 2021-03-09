@@ -24,15 +24,13 @@ const Brands = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-6 brands">
-                            <Link to="/Home"><h1>Home</h1></Link>
                             <Link to="/Womens"><h1>WOMAN</h1></Link>
                             <Link to="/Mens"><h1>MAN</h1></Link>
                             <Link to="/Kids"><h1>KIDS</h1></Link>
-                            <Link to="/Brands"><h1 className="Brands-brand">BRANDS</h1></Link>
+                            <Link to="/Brands"><h1 className="Brands-brand" style={{color: "#FFFFFF"}}>BRANDS</h1></Link>
                         </div>
                         <div className="col-md-6">
-                            <input type="text" placeholder="SEARCH" className="Brand-input" />
-                            <i className="fa fa-search Brand-search" aria-hidden="true" />
+            
                         </div>
                     </div>
                 </div>
