@@ -89,6 +89,7 @@ height: 387px;
 left: 0px;
 background: url(./images/image\ 11.png);
 opacity: 0.3;
+background-size: cover;
 }
 .overlay {
   position: absolute;
@@ -164,12 +165,14 @@ color: #FFFFFF;
   width: 100%;
   height: 833px;
   background: url(./images/image\ 23.png);
+  background-size: cover;
 }
 .mans-banner1 {
   position: relative;
   width: 100%;
   height: 833px;
   background: url(./images/image\ 20.png);
+  background-size: cover;
 }
 .Ultimate {
   position: absolute;
@@ -239,12 +242,14 @@ top: 189px;
     width: 100%;
     height: 833px;
     background: url(./images/image\ 26.png);
+    background-size: cover;
 }
 .Kids-banner1 {
   position: relative;
   width: 100%;
   height: 833px;
   background: url(./images/image\ 19.png);
+  background-size: cover;
 }
 .brands h1 {
   font-family: Helvetica;
@@ -645,7 +650,6 @@ margin-top: 35px;
 }
 .sc div { text-align: center; }
 .slick-track {
-  display: flex;
   align-items: center;
   top: -3px !important;
 }
@@ -763,3 +767,51 @@ color: #FFFFFF;
         display: table-cell !important;
         float: left !important;
       }
+      .Header-social-media {
+        text-align: center;
+        position: relative;
+        right: 51px;
+        top: 46px;
+      }
+      .laguages {
+        text-align: end;
+        position: relative;
+        top: 41px;
+      }
+      .laguages span {
+        font-family: roboto;
+        color: #FFFFFF;
+        padding-left: 6px;
+        font-size: 10px;
+      }
+      .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content Link {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a:hover {background-color: #000000;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

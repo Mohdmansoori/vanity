@@ -1,7 +1,7 @@
 import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import Footer from './Component/Footer';
-import Navbar from './Component/Navbar';
+import Header from './Component/Header';
 import Kids from './Component/Module/Kids';
 import Mens from './Component/Module/Mens';
 import Home from './Component/Module/Home';
@@ -13,7 +13,7 @@ import About from './Component/Module/About';
 const App = () => {
   return (
     <>
-      <Navbar />
+      <Header />
       <Switch>
         <Route exact path="/" component={Womens} />
         <Route exact path="/Kids" component={Kids} />
