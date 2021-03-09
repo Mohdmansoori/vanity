@@ -22,7 +22,6 @@ const App = () => {
         <Route exact path="/Brands" component={Brands} />
         <Route exact path="/Womens" component={Womens} />
         <Route exact path="/About" component={About} />
-        <Route exact path="/Home" component={Home} />
         <Redirect to="/" />
       </Switch>
       <Footer />
